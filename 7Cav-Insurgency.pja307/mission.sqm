@@ -8,22 +8,22 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=11927;
+		nextID=11928;
 	};
 	class MarkerIDProvider
 	{
-		nextID=25;
+		nextID=26;
 	};
 	class LayerIndexProvider
 	{
-		nextID=17461;
+		nextID=17626;
 	};
 	class Camera
 	{
-		pos[]={5186.2388,345.43484,13818.032};
-		dir[]={0.69444859,-0.67818707,-0.24094369};
-		up[]={0.64073694,0.73483038,-0.22230875};
-		aside[]={-0.32782754,2.9476359e-006,-0.94485325};
+		pos[]={5394.1465,279.23413,14552.877};
+		dir[]={0.87463474,-0.47614592,0.091188736};
+		up[]={0.47358382,0.87936133,0.04937521};
+		aside[]={0.1036972,-8.9057721e-008,-0.99461454};
 	};
 };
 binarizationWanted=0;
@@ -1222,7 +1222,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=403;
+		items=404;
 		class Item0
 		{
 			dataType="Layer";
@@ -50518,6 +50518,19 @@ class Mission
 				};
 			};
 			id=11925;
+		};
+		class Item403
+		{
+			dataType="Marker";
+			position[]={5406.4121,273.785,14554.923};
+			name="marker_25";
+			text="Hospital";
+			type="loc_Hospital";
+			colorName="ColorRed";
+			a=0.75;
+			b=0.75;
+			id=11927;
+			atlOffset=0.00015258789;
 		};
 	};
 	class Connections
