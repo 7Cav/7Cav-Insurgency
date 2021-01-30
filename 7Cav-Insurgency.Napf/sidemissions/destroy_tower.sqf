@@ -56,4 +56,3 @@ _tower addMPEventHandler["MPKilled",
 	deleteMarker "ObjectiveMkr";
 }
 ];
-

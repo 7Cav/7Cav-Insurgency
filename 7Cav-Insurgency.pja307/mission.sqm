@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=17626;
+		nextID=17791;
 	};
 	class Camera
 	{
-		pos[]={5394.1465,279.23413,14552.877};
-		dir[]={0.87463474,-0.47614592,0.091188736};
-		up[]={0.47358382,0.87936133,0.04937521};
-		aside[]={0.1036972,-8.9057721e-008,-0.99461454};
+		pos[]={5351.0488,293.64502,13639.29};
+		dir[]={0.097767562,-0.66189271,-0.74329931};
+		up[]={0.086318322,0.74956983,-0.65625864};
+		aside[]={-0.99151796,2.7614897e-007,-0.13041179};
 	};
 };
 binarizationWanted=0;
@@ -2872,7 +2872,7 @@ class Mission
 							{
 								ammo=0.25855634;
 								init="call{[this, false, [0,0,0], 0] call ace_dragging_fnc_setDraggable; " \n "[this, false, [0,0,0], 0] call ace_dragging_fnc_setCarryable;}";
-								name="arsenal_7";
+								name="arsenal_5";
 							};
 							id=11884;
 							type="B_supplyCrate_F";
