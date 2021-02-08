@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=7063;
+		nextID=7131;
 	};
 	class Camera
 	{
-		pos[]={5203.625,94.873657,4450.9595};
-		dir[]={-0.49734375,-0.64507216,0.58024204};
-		up[]={-0.41982153,0.76409137,0.48979697};
-		aside[]={0.7593109,-6.549526e-007,0.65083569};
+		pos[]={5299.5801,97.856422,4470.7539};
+		dir[]={-0.84683198,-0.44216406,0.29599106};
+		up[]={-0.41754657,0.89684242,0.14594357};
+		aside[]={0.32998776,-8.6717773e-007,0.94412106};
 	};
 };
 binarizationWanted=0;
@@ -31330,7 +31330,7 @@ class Mission
 				{
 					dataType="Trigger";
 					position[]={5295.5581,71.662148,4494.8672};
-					angle=2.9436026;
+					angle=2.9436018;
 					class Attributes
 					{
 						name="healZone_1";
@@ -38007,8 +38007,8 @@ class Mission
 				class Item3
 				{
 					dataType="Trigger";
-					position[]={5234.3013,71.561172,4497.6787};
-					angle=6.1136608;
+					position[]={5234.3008,71.56118,4497.6792};
+					angle=6.1136613;
 					class Attributes
 					{
 						name="hangarTrigger_1";
@@ -38022,7 +38022,6 @@ class Mission
 						repeatable=1;
 						activationBy="ANYPLAYER";
 						isRectangle=1;
-						effectSound="Doors";
 					};
 					id=3505;
 					type="EmptyDetectorAreaR50";
@@ -38031,7 +38030,7 @@ class Mission
 				{
 					dataType="Trigger";
 					position[]={5251.105,71.562889,4501.2871};
-					angle=6.1136608;
+					angle=6.1136613;
 					class Attributes
 					{
 						name="hangarTrigger_2";
@@ -38045,7 +38044,6 @@ class Mission
 						repeatable=1;
 						activationBy="ANYPLAYER";
 						isRectangle=1;
-						effectSound="Doors";
 					};
 					id=3506;
 					type="EmptyDetectorAreaR50";
@@ -46915,15 +46913,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5243.5254,73.96035,4440.3594};
-								angles[]={6.2571931,6.1193857,0.0069996584};
+								position[]={5243.5254,73.960335,4440.3589};
+								angles[]={6.2571969,6.1193857,0.0069987699};
 							};
 							side="Empty";
 							flags=4;
 							class Attributes
 							{
 								init="call{null = [this] execVM ""scripts\vehicle\init\Base_SOV.sqf"";}";
-								presence=0.46187738;
 								textures="rhs_woodland";
 							};
 							id=3574;
@@ -47216,7 +47213,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5235.6226,73.273979,4438.6055};
+								position[]={5235.437,73.327484,4439.1353};
 								angles[]={6.1825299,6.1293864,0};
 							};
 							side="Empty";
@@ -47276,7 +47273,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5247.7827,74.009171,4441.0908};
-								angles[]={6.2571931,6.1193857,0.0069996584};
+								angles[]={6.2571969,6.1193857,0.0069987699};
 							};
 							side="Empty";
 							flags=4;
@@ -47572,7 +47569,7 @@ class Mission
 						};
 					};
 					id=3572;
-					atlOffset=0.010704041;
+					atlOffset=0.020935059;
 				};
 				class Item4
 				{
@@ -48236,7 +48233,7 @@ class Mission
 				};
 			};
 			id=3554;
-			atlOffset=0.054336548;
+			atlOffset=0.057556152;
 		};
 		class Item246
 		{
