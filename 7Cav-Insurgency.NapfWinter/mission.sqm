@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=7131;
+		nextID=7199;
 	};
 	class Camera
 	{
-		pos[]={5299.5801,97.856422,4470.7539};
-		dir[]={-0.84683198,-0.44216406,0.29599106};
-		up[]={-0.41754657,0.89684242,0.14594357};
-		aside[]={0.32998776,-8.6717773e-007,0.94412106};
+		pos[]={5255.1831,97.856422,4480.1973};
+		dir[]={-0.37116942,-0.54006565,-0.75551695};
+		up[]={-0.23819205,0.84152448,-0.48484111};
+		aside[]={-0.89765394,-1.6926788e-006,0.44098949};
 	};
 };
 binarizationWanted=0;
@@ -38008,7 +38008,7 @@ class Mission
 				{
 					dataType="Trigger";
 					position[]={5234.3008,71.56118,4497.6792};
-					angle=6.1136613;
+					angle=6.1136608;
 					class Attributes
 					{
 						name="hangarTrigger_1";
@@ -38030,7 +38030,7 @@ class Mission
 				{
 					dataType="Trigger";
 					position[]={5251.105,71.562889,4501.2871};
-					angle=6.1136613;
+					angle=6.1136608;
 					class Attributes
 					{
 						name="hangarTrigger_2";
@@ -47182,7 +47182,7 @@ class Mission
 													"SCALAR"
 												};
 											};
-											value=16;
+											value=26;
 										};
 									};
 								};
@@ -47201,7 +47201,7 @@ class Mission
 													"SCALAR"
 												};
 											};
-											value=20;
+											value=80;
 										};
 									};
 								};
@@ -47541,7 +47541,7 @@ class Mission
 													"SCALAR"
 												};
 											};
-											value=16;
+											value=26;
 										};
 									};
 								};
@@ -47560,7 +47560,7 @@ class Mission
 													"SCALAR"
 												};
 											};
-											value=20;
+											value=80;
 										};
 									};
 								};
@@ -48510,7 +48510,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={5198.1499,71.305099,4454.4199};
-			angle=2.9847224;
+			angle=2.9847221;
 			class Attributes
 			{
 				name="healZone";
