@@ -8,6 +8,8 @@ if !(isServer) exitWith {};
     [_vehicle, 100] call cScripts_fnc_addFortifyArea;
     [_vehicle, 26] call ace_cargo_fnc_setSpace;
     [_vehicle, 80] call ace_cargo_fnc_setSize;
+    [_vehicle, 5000] call ace_refuel_fnc_setFuel;
+    [_vehicle, 600] call ace_rearm_fnc_setSupplyCount;
     
 	[
 	_vehicle,
