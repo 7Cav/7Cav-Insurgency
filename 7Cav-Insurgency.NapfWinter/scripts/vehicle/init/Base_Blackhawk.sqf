@@ -4,6 +4,7 @@ if !(isServer) exitWith {};
 
 [_vehicle,
 	{
+    params ["_vehicle"];
 	_vehicle setvariable ["ace_medical_isMedicalVehicle", true, true];
 	[_vehicle] call ace_fastroping_fnc_equipFRIES; //Equips heli w/ fries
     [_vehicle, 8] call ace_cargo_fnc_setSpace; //Sets cargo space
