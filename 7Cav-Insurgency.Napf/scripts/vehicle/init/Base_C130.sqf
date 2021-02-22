@@ -4,6 +4,7 @@ if !(isServer) exitWith {};
 
 [_vehicle,
     {
+    params ["_vehicle"];
 	_vehicle addWeaponTurret ["FIR_SUU25", [0]];
 	_vehicle addWeaponTurret ["FIR_SUU25", [-1]];
     for "_i" from 1 to 4 do {_vehicle addMagazineTurret ["FIR_SUU25_P_8rnd_M",[0]]}; //Adds n magazines
@@ -11,8 +12,6 @@ if !(isServer) exitWith {};
     _vehicle loadMagazine [[0], "FIR_SUU25", "FIR_SUU25_P_8rnd_M"]; //Loads turret magazine
     [_vehicle, 100] call ace_cargo_fnc_setSpace; //Sets cargo space
     [_vehicle, -1] call ace_cargo_fnc_setSize; //Sets cargo size
-	_vehicle animateSource ['Ramp',1,true]; //Opens ramp
-	_vehicle animateSource ['door_1',1,true]; //Open crew door
 
     clearWeaponCargoGlobal _vehicle;
     clearMagazineCargoGlobal _vehicle;
