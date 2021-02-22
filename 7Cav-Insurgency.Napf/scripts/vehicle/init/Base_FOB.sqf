@@ -33,6 +33,7 @@ if !(isServer) exitWith {};
         ["ACE_tourniquet", 8],
         ["ACE_splint", 8],
         ["ACE_EarPlugs", 4],
+        ["ACE_Fortify", 8],
         ["ToolKit", 1],
         ["ACE_Clacker", 1],
         ["SatchelCharge_Remote_Mag", 1],
