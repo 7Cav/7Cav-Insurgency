@@ -1,5 +1,5 @@
 
-// Gunslinger Rifleman, Driver, Gunner
+// Gunslinger Automatic Rifleman
 
 private _state = param [0, "", [""]];
 
