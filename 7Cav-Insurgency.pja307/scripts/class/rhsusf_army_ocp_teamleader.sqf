@@ -1,5 +1,5 @@
 
-// Gunslinger Rifleman, Driver, Gunner
+// Gunslinger Team Leader
 
 private _state = param [0, "", [""]];
 
