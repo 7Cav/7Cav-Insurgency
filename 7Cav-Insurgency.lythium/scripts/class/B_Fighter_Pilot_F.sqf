@@ -1,25 +1,30 @@
+
+// Hog, Eagle, and Titan Pilot
+
 private _state = param [0, "", [""]];
 
-if (_state == "init") then
-{
-	player setvariable ["ACE_IsEngineer", 2];
-	[player] call CLIENT_SetInfantryVehiclePermissions;
+if (_state == "init") then {
 
-	{
-		player setVariable [_x, [[TypeFilter_GroundAttackAircraft, [], {}]] + (player getVariable _x)];
-	} forEach ["VP_Pilot"];
+    player setvariable ["ACE_IsEngineer", 2];
 
-	{
-		player setVariable [_x, [[TypeFilter_BaseServiceVehicles, [], {}]] + (player getVariable _x)];
-	} forEach ["VP_Driver"];
+    [player] call CLIENT_SetInfantryVehiclePermissions;
 
-	[] call HUD_Pilot_Initialize;
+    {
+        player setVariable [_x, [[TypeFilter_GroundAttackAircraft, [], {}]] + (player getVariable _x)];
+    } forEach ["VP_Pilot"];
 
-	player setVariable ["SPM_BranchOfService", "pilot"];
+    {
+        player setVariable [_x, [[TypeFilter_BaseServiceVehicles, [], {}]] + (player getVariable _x)];
+    } forEach ["VP_Driver"];
+
+    [] call HUD_Pilot_Initialize;
+
+    player setVariable ["SPM_BranchOfService", "pilot"];
 
 };
 
-if (_state == "respawn") then
-{
-	player setvariable ["ACE_IsEngineer", 2];
+if (_state == "respawn") then {
+
+    player setvariable ["ACE_IsEngineer", 2];
+
 };
