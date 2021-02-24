@@ -394,6 +394,7 @@ private _miscItems = [
             _NVGs +
             _binoculars +
             _terminals +
+            _sights +
             _railAttachments +
             _muzzleAttachments +
             _magazines +
