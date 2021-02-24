@@ -82,6 +82,7 @@ private _miscItems = [
             _NVGs +
             _binoculars +
             _terminals +
+            _sights +
             _railAttachments +
             _muzzleAttachments +
             _magazines +
@@ -98,7 +99,8 @@ private _miscItems = [
 	arsenal_2,
 	arsenal_3,
 	arsenal_4,
-	arsenal_5
+	arsenal_5,
+	arsenal_6
 ];
 
 execVM "scripts\arsenal\fn_arsenalGeneral.sqf";
