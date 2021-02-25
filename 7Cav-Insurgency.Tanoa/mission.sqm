@@ -8,7 +8,7 @@ class EditorData
 	toggles=514;
 	class ItemIDProvider
 	{
-		nextID=8999;
+		nextID=9000;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=17286;
+		nextID=17399;
 	};
 	class Camera
 	{
-		pos[]={6894.936,5.928122,7451.1367};
-		dir[]={-0.021800734,-0.34346542,0.93894184};
-		up[]={-0.007973006,0.93916088,0.34337968};
-		aside[]={0.99975872,5.0337985e-007,0.023212619};
+		pos[]={6915.8809,17.097811,7515.0679};
+		dir[]={0.84628904,-0.38088256,0.37263849};
+		up[]={0.3486537,0.92458385,0.15351953};
+		aside[]={0.40300897,9.9709723e-007,-0.91526514};
 	};
 };
 binarizationWanted=0;
@@ -936,7 +936,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=325;
+		items=326;
 		class Item0
 		{
 			dataType="Layer";
@@ -42194,6 +42194,45 @@ class Mission
 			};
 			id=8778;
 			type="Land_MilOffices_V1_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item325
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6900.6089,5.7620916,7464.0845};
+				angles[]={0,1.3384334,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=8999;
+			type="Land_LampStreet_small_F";
 			class CustomAttributes
 			{
 				class Attribute0
