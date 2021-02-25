@@ -261,6 +261,7 @@ private _miscItems = [
             _sights +
             _railAttachments +
             _muzzleAttachments +
+            _bipods +
             _magazines +
             _grenades +
             _explosives +
