@@ -8,6 +8,7 @@ class EditorData
 	toggles=514;
 	class ItemIDProvider
 	{
+		nextID=8999;
 	};
 	class MarkerIDProvider
 	{
@@ -15,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=17060;
+		nextID=17173;
 	};
 	class Camera
 	{
-		pos[]={6896.0151,26.516874,7213.313};
-		dir[]={0.10074469,-0.28666073,-0.95284277};
-		up[]={0.03014704,0.95794922,-0.28515673};
-		aside[]={-0.99457431,-8.3239865e-007,-0.10516611};
+		pos[]={6849.4688,9.0589275,7377.0088};
+		dir[]={0.97755253,-0.08054278,-0.19529006};
+		up[]={0.079107016,0.99667913,-0.015806356};
+		aside[]={-0.19591613,1.5334226e-006,-0.98073995};
 	};
 };
 binarizationWanted=0;
@@ -6425,7 +6426,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={6864.126,6.2101035,7372.6812};
+								position[]={6864.126,6.1556268,7372.6812};
 								angles[]={0,5.0244541,0};
 							};
 							side="Empty";
@@ -6436,7 +6437,7 @@ class Mission
 							};
 							id=7423;
 							type="rhsusf_M1239_M2_Deploy_socom_d";
-							atlOffset=0.32400012;
+							atlOffset=0.26952338;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -7032,11 +7033,11 @@ class Mission
 						};
 					};
 					id=6244;
-					atlOffset=0.04235816;
+					atlOffset=0.040655851;
 				};
 			};
 			id=6243;
-			atlOffset=13.498671;
+			atlOffset=13.49782;
 		};
 		class Item3
 		{
