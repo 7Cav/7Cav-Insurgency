@@ -1,4 +1,4 @@
-version=53;
+version=54;
 class EditorData
 {
 	moveGridStep=0.125;
@@ -16,17 +16,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=16721;
+		nextID=16834;
 	};
 	class Camera
 	{
-		pos[]={6887.9595,6.3008776,7445.2876};
-		dir[]={0.90270329,-0.35563076,-0.24267797};
-		up[]={0.34353063,0.93454814,-0.092353098};
-		aside[]={-0.25965032,2.1875021e-006,-0.96583647};
+		pos[]={6984.7407,158.33517,7361.0581};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
+sourceName="7Cav-Insurgency";
 addons[]=
 {
 	"A3_Characters_F",
@@ -159,8 +160,8 @@ addons[]=
 	"real_uniform_unlock",
 	"ace_captives",
 	"A3_Structures_F_Ind_WindPowerPlant",
-	"A3_Structures_F_Mil_Offices",
-	"A3_Structures_F_Civ_Market"
+	"A3_Structures_F_Civ_Market",
+	"A3_Structures_F_Mil_Offices"
 };
 class AddonsMetaData
 {
@@ -496,7 +497,6 @@ class AddonsMetaData
 		{
 			className="cav_flag";
 			name="7th Cavalry Addon - Flag";
-			author="7th Cavalry S3 Mod Team";
 			url="http://7cav.us";
 		};
 		class Item48
@@ -7373,7 +7373,7 @@ class Mission
 			name="Markers";
 			class Entities
 			{
-				items=5;
+				items=4;
 				class Item0
 				{
 					dataType="Marker";
@@ -7398,16 +7398,6 @@ class Mission
 				};
 				class Item2
 				{
-					dataType="Marker";
-					position[]={6983.5342,146.75,7376.4058};
-					name="marker_90";
-					text="Aircraft Rearm";
-					type="USAF_GPSINSmarkerTemp";
-					id=6627;
-					atlOffset=144.09;
-				};
-				class Item3
-				{
 					dataType="Layer";
 					name="Airspace";
 					class Entities
@@ -7430,7 +7420,7 @@ class Mission
 					id=1042;
 					atlOffset=1.8255954;
 				};
-				class Item4
+				class Item3
 				{
 					dataType="Layer";
 					name="Blacklists";
@@ -7681,7 +7671,7 @@ class Mission
 			a=50;
 			b=50;
 			id=7205;
-			atlOffset=0.059500456;
+			atlOffset=0.17334008;
 		};
 		class Item24
 		{
@@ -42204,6 +42194,38 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
+				position[]={6901.6494,4.1680002,7442.8755};
+				angles[]={0,6.0877428,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=8940;
+			type="Land_Metal_wooden_rack_F";
+		};
+		class Item324
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6902.9775,3.9020002,7444.2202};
+				angles[]={0,4.5454259,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=8945;
+			type="Land_CratesWooden_F";
+		};
+		class Item325
+		{
+			dataType="Object";
+			class PositionInfo
+			{
 				position[]={6895.8569,5.9500785,7454.4961};
 				angles[]={0,4.5191984,0};
 			};
@@ -42238,38 +42260,6 @@ class Mission
 				};
 				nAttributes=1;
 			};
-		};
-		class Item324
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={6901.6494,4.1680002,7442.8755};
-				angles[]={0,6.0877428,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=8940;
-			type="Land_Metal_wooden_rack_F";
-		};
-		class Item325
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={6902.9775,3.9020002,7444.2202};
-				angles[]={0,4.5454259,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=8945;
-			type="Land_CratesWooden_F";
 		};
 	};
 };
