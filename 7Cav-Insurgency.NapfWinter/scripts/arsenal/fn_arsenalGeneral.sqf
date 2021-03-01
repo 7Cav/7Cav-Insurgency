@@ -1363,6 +1363,15 @@ private _miscItems = [
             false
         ] call ace_arsenal_fnc_addVirtualItems;
 
+        [_x , -1] call ace_cargo_fnc_setSize;
+        [_x , 0] call ace_cargo_fnc_setSpace;
+
+        [_x , false] call ace_dragging_fnc_setDraggable;
+        [_x , false] call ace_dragging_fnc_setCarryable;
+
+        _x allowdamage false;
+        _x enableSimulation false;
+
     };
 
 } forEach [
