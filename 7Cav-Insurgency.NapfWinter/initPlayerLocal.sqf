@@ -45,11 +45,3 @@ _null = [] execVM "camosystem.sqf";
 
 CLIENT_InitPlayerLocalComplete = true;
 diag_log "initPlayerLocal end";
-
-{[_x] execVM "scripts\arsenal_loadouts.sqf";} forEach [
-	arsenal_1,
-	arsenal_2,
-	arsenal_3,
-	arsenal_4,
-	arsenal_5
-]
