@@ -5,6 +5,8 @@ private _state = param [0, "", [""]];
 
 if (_state == "init") then {
 
+    call scripts_fnc_arsenalPlanePilot;
+
     player setvariable ["ACE_IsEngineer", 2];
 
     [player] call CLIENT_SetInfantryVehiclePermissions;
