@@ -144045,7 +144045,7 @@ class Mission
 					side="Empty";
 					class Attributes
 					{
-						init="call{null = [this] execVM ""scripts\vehicle\init\Base_WheelArmed.sqf"";}";
+						init="call{null = [this] execVM ""scripts\vehicle\init\Base_WheeledArmed.sqf"";}";
 						textures="rhs_desert";
 					};
 					id=16357;
