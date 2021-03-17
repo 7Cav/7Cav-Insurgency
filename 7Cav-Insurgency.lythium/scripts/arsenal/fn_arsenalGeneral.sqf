@@ -1245,6 +1245,7 @@ private _grenades = [
     "SmokeShellPurple",
     "SmokeShellRed",
     "SmokeShellYellow",
+    "rhs_mag_m67",
     "HandGrenade",
     "SmokeShell",
     "MiniGrenade",
