@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=19855;
+		nextID=19888;
 	};
 	class Camera
 	{
-		pos[]={5370.6641,301.00479,14552.87};
-		dir[]={-0.80907142,-0.58621889,-0.044693861};
-		up[]={-0.58539456,0.81004667,-0.032337189};
-		aside[]={-0.055165976,-1.5557234e-006,0.99855494};
+		pos[]={5381.1533,329.71149,14514.84};
+		dir[]={-0.4308109,-0.57875127,0.69242543};
+		up[]={-0.30573997,0.81550276,0.49140394};
+		aside[]={0.84907568,8.5681677e-008,0.52827501};
 	};
 };
 binarizationWanted=0;
@@ -104,7 +104,7 @@ addons[]=
 	"A3_Structures_F_EPB_Civ_Camping",
 	"ace_interaction",
 	"A3_Structures_F_Bootcamp_Civ_SportsGrounds",
-	"vending_machine",
+	"Jbad_vending_machine",
 	"A3_Modules_F_Multiplayer",
 	"A3_Signs_F_Signs_Ad",
 	"A3_Props_F_Exp_Military_Camps",
@@ -530,8 +530,8 @@ class AddonsMetaData
 		};
 		class Item55
 		{
-			className="vending_machine";
-			name="vending_machine";
+			className="Jbad_vending_machine";
+			name="Jbad_vending_machine";
 		};
 		class Item56
 		{
@@ -1324,7 +1324,7 @@ class Mission
 								class Attribute0
 								{
 									property="ace_isMedicalVehicle";
-									expression="_this setVariable [""ace_medical_isMedicalVehicle"",_value,true]";
+									expression="_this setVariable [""ace_medical_isMedicalVehicle"", _value, true]";
 									class Value
 									{
 										class data
@@ -1381,7 +1381,7 @@ class Mission
 								class Attribute3
 								{
 									property="ace_cargo_space";
-									expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+									expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 									class Value
 									{
 										class data
@@ -1463,7 +1463,7 @@ class Mission
 								class Attribute2
 								{
 									property="ace_cargo_space";
-									expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+									expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 									class Value
 									{
 										class data
@@ -1545,7 +1545,7 @@ class Mission
 								class Attribute2
 								{
 									property="ace_isMedicalVehicle";
-									expression="_this setVariable [""ace_medical_isMedicalVehicle"",_value,true]";
+									expression="_this setVariable [""ace_medical_isMedicalVehicle"", _value, true]";
 									class Value
 									{
 										class data
@@ -1564,7 +1564,7 @@ class Mission
 								class Attribute3
 								{
 									property="ace_cargo_space";
-									expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+									expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 									class Value
 									{
 										class data
@@ -1741,7 +1741,7 @@ class Mission
 								class Attribute7
 								{
 									property="ace_cargo_size";
-									expression="[_this,_value] call ace_cargo_fnc_setSize;";
+									expression="[_this, _value] call ace_cargo_fnc_setSize;";
 									class Value
 									{
 										class data
@@ -1800,7 +1800,7 @@ class Mission
 								class Attribute1
 								{
 									property="ace_cargo_size";
-									expression="[_this,_value] call ace_cargo_fnc_setSize;";
+									expression="[_this, _value] call ace_cargo_fnc_setSize;";
 									class Value
 									{
 										class data
@@ -1841,7 +1841,7 @@ class Mission
 								class Attribute0
 								{
 									property="ace_isMedicalVehicle";
-									expression="_this setVariable [""ace_medical_isMedicalVehicle"",_value,true]";
+									expression="_this setVariable [""ace_medical_isMedicalVehicle"", _value, true]";
 									class Value
 									{
 										class data
@@ -1898,7 +1898,7 @@ class Mission
 								class Attribute3
 								{
 									property="ace_cargo_space";
-									expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+									expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 									class Value
 									{
 										class data
@@ -2075,7 +2075,7 @@ class Mission
 								class Attribute7
 								{
 									property="ace_cargo_size";
-									expression="[_this,_value] call ace_cargo_fnc_setSize;";
+									expression="[_this, _value] call ace_cargo_fnc_setSize;";
 									class Value
 									{
 										class data
@@ -2134,7 +2134,7 @@ class Mission
 								class Attribute1
 								{
 									property="ace_cargo_size";
-									expression="[_this,_value] call ace_cargo_fnc_setSize;";
+									expression="[_this, _value] call ace_cargo_fnc_setSize;";
 									class Value
 									{
 										class data
@@ -2192,7 +2192,7 @@ class Mission
 								class Attribute1
 								{
 									property="ace_cargo_size";
-									expression="[_this,_value] call ace_cargo_fnc_setSize;";
+									expression="[_this, _value] call ace_cargo_fnc_setSize;";
 									class Value
 									{
 										class data
@@ -2332,7 +2332,7 @@ class Mission
 								class Attribute3
 								{
 									property="ace_cargo_size";
-									expression="[_this,_value] call ace_cargo_fnc_setSize;";
+									expression="[_this, _value] call ace_cargo_fnc_setSize;";
 									class Value
 									{
 										class data
@@ -2461,7 +2461,7 @@ class Mission
 								class Attribute3
 								{
 									property="ace_cargo_size";
-									expression="[_this,_value] call ace_cargo_fnc_setSize;";
+									expression="[_this, _value] call ace_cargo_fnc_setSize;";
 									class Value
 									{
 										class data
@@ -2539,7 +2539,7 @@ class Mission
 								class Attribute2
 								{
 									property="ace_isMedicalFacility";
-									expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+									expression="_this setVariable [""ace_medical_isMedicalFacility"", _value, true];";
 									class Value
 									{
 										class data
@@ -2636,7 +2636,7 @@ class Mission
 								class Attribute2
 								{
 									property="ace_isMedicalFacility";
-									expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+									expression="_this setVariable [""ace_medical_isMedicalFacility"", _value, true];";
 									class Value
 									{
 										class data
@@ -2765,7 +2765,7 @@ class Mission
 								class Attribute3
 								{
 									property="ace_cargo_size";
-									expression="[_this,_value] call ace_cargo_fnc_setSize;";
+									expression="[_this, _value] call ace_cargo_fnc_setSize;";
 									class Value
 									{
 										class data
@@ -2894,7 +2894,7 @@ class Mission
 								class Attribute3
 								{
 									property="ace_cargo_size";
-									expression="[_this,_value] call ace_cargo_fnc_setSize;";
+									expression="[_this, _value] call ace_cargo_fnc_setSize;";
 									class Value
 									{
 										class data
@@ -3024,7 +3024,7 @@ class Mission
 								class Attribute3
 								{
 									property="ace_cargo_size";
-									expression="[_this,_value] call ace_cargo_fnc_setSize;";
+									expression="[_this, _value] call ace_cargo_fnc_setSize;";
 									class Value
 									{
 										class data
@@ -3153,7 +3153,7 @@ class Mission
 								class Attribute3
 								{
 									property="ace_cargo_size";
-									expression="[_this,_value] call ace_cargo_fnc_setSize;";
+									expression="[_this, _value] call ace_cargo_fnc_setSize;";
 									class Value
 									{
 										class data
@@ -3683,7 +3683,7 @@ class Mission
 				class Attribute0
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -3742,7 +3742,7 @@ class Mission
 				class Attribute1
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -3810,7 +3810,7 @@ class Mission
 				class Attribute3
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -3850,7 +3850,7 @@ class Mission
 				class Attribute0
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -3869,7 +3869,7 @@ class Mission
 				class Attribute1
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -3910,7 +3910,7 @@ class Mission
 				class Attribute0
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -3951,7 +3951,7 @@ class Mission
 				class Attribute0
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -3991,7 +3991,7 @@ class Mission
 				class Attribute0
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -4069,7 +4069,7 @@ class Mission
 				class Attribute2
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -4147,7 +4147,7 @@ class Mission
 				class Attribute2
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -4225,7 +4225,7 @@ class Mission
 				class Attribute2
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -4355,7 +4355,7 @@ class Mission
 				class Attribute4
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -4433,7 +4433,7 @@ class Mission
 				class Attribute2
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -4452,7 +4452,7 @@ class Mission
 				class Attribute3
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -4774,7 +4774,7 @@ class Mission
 								class Attribute3
 								{
 									property="ace_cargo_size";
-									expression="[_this,_value] call ace_cargo_fnc_setSize;";
+									expression="[_this, _value] call ace_cargo_fnc_setSize;";
 									class Value
 									{
 										class data
@@ -4902,7 +4902,7 @@ class Mission
 								class Attribute3
 								{
 									property="ace_cargo_size";
-									expression="[_this,_value] call ace_cargo_fnc_setSize;";
+									expression="[_this, _value] call ace_cargo_fnc_setSize;";
 									class Value
 									{
 										class data
@@ -5144,7 +5144,7 @@ class Mission
 				class Attribute4
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -5163,7 +5163,7 @@ class Mission
 				class Attribute5
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -5260,7 +5260,7 @@ class Mission
 				class Attribute3
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -5279,7 +5279,7 @@ class Mission
 				class Attribute4
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -6999,7 +6999,7 @@ class Mission
 				class Attribute0
 				{
 					property="ace_isMedicalVehicle";
-					expression="_this setVariable [""ace_medical_isMedicalVehicle"",_value,true]";
+					expression="_this setVariable [""ace_medical_isMedicalVehicle"", _value, true]";
 					class Value
 					{
 						class data
@@ -7037,7 +7037,7 @@ class Mission
 				class Attribute2
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -7302,7 +7302,7 @@ class Mission
 										class Attribute3
 										{
 											property="ace_refuel_fuelCargo";
-											expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+											expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
 											class Value
 											{
 												class data
@@ -7321,7 +7321,7 @@ class Mission
 										class Attribute4
 										{
 											property="ace_rearm_rearmCargo";
-											expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+											expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
 											class Value
 											{
 												class data
@@ -7340,7 +7340,7 @@ class Mission
 										class Attribute5
 										{
 											property="ace_isRepairVehicle";
-											expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_repair_canRepair"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairVehicle', _value, true]}";
+											expression="if (_value != (if (isNumber (configOf _this >> ""ace_repair_canRepair"")) then {getNumber (configOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairVehicle', _value, true]}";
 											class Value
 											{
 												class data
@@ -7359,7 +7359,7 @@ class Mission
 										class Attribute6
 										{
 											property="ace_cargo_space";
-											expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+											expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 											class Value
 											{
 												class data
@@ -7378,7 +7378,7 @@ class Mission
 										class Attribute7
 										{
 											property="ace_cargo_size";
-											expression="[_this,_value] call ace_cargo_fnc_setSize;";
+											expression="[_this, _value] call ace_cargo_fnc_setSize;";
 											class Value
 											{
 												class data
@@ -7622,7 +7622,7 @@ class Mission
 										class Attribute3
 										{
 											property="ace_refuel_fuelCargo";
-											expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+											expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
 											class Value
 											{
 												class data
@@ -7641,7 +7641,7 @@ class Mission
 										class Attribute4
 										{
 											property="ace_rearm_rearmCargo";
-											expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+											expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
 											class Value
 											{
 												class data
@@ -7660,7 +7660,7 @@ class Mission
 										class Attribute5
 										{
 											property="ace_isRepairVehicle";
-											expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_repair_canRepair"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairVehicle', _value, true]}";
+											expression="if (_value != (if (isNumber (configOf _this >> ""ace_repair_canRepair"")) then {getNumber (configOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairVehicle', _value, true]}";
 											class Value
 											{
 												class data
@@ -7679,7 +7679,7 @@ class Mission
 										class Attribute6
 										{
 											property="ace_cargo_space";
-											expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+											expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 											class Value
 											{
 												class data
@@ -7698,7 +7698,7 @@ class Mission
 										class Attribute7
 										{
 											property="ace_cargo_size";
-											expression="[_this,_value] call ace_cargo_fnc_setSize;";
+											expression="[_this, _value] call ace_cargo_fnc_setSize;";
 											class Value
 											{
 												class data
@@ -7942,7 +7942,7 @@ class Mission
 										class Attribute3
 										{
 											property="ace_refuel_fuelCargo";
-											expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+											expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
 											class Value
 											{
 												class data
@@ -7961,7 +7961,7 @@ class Mission
 										class Attribute4
 										{
 											property="ace_rearm_rearmCargo";
-											expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+											expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
 											class Value
 											{
 												class data
@@ -7980,7 +7980,7 @@ class Mission
 										class Attribute5
 										{
 											property="ace_cargo_space";
-											expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+											expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 											class Value
 											{
 												class data
@@ -7999,7 +7999,7 @@ class Mission
 										class Attribute6
 										{
 											property="ace_cargo_size";
-											expression="[_this,_value] call ace_cargo_fnc_setSize;";
+											expression="[_this, _value] call ace_cargo_fnc_setSize;";
 											class Value
 											{
 												class data
@@ -8762,7 +8762,7 @@ class Mission
 				class Attribute3
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -8781,7 +8781,7 @@ class Mission
 				class Attribute4
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -8841,7 +8841,7 @@ class Mission
 				class Attribute1
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -8942,7 +8942,7 @@ class Mission
 				class Attribute1
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -9002,7 +9002,7 @@ class Mission
 				class Attribute1
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -9080,7 +9080,7 @@ class Mission
 				class Attribute2
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -9099,7 +9099,7 @@ class Mission
 				class Attribute3
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -9177,7 +9177,7 @@ class Mission
 				class Attribute2
 				{
 					property="ace_isMedicalVehicle";
-					expression="_this setVariable [""ace_medical_isMedicalVehicle"",_value,true]";
+					expression="_this setVariable [""ace_medical_isMedicalVehicle"", _value, true]";
 					class Value
 					{
 						class data
@@ -9196,7 +9196,7 @@ class Mission
 				class Attribute3
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -9215,7 +9215,7 @@ class Mission
 				class Attribute4
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -9966,7 +9966,7 @@ class Mission
 				class Attribute3
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -9985,7 +9985,7 @@ class Mission
 				class Attribute4
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -10736,7 +10736,7 @@ class Mission
 				class Attribute3
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -10755,7 +10755,7 @@ class Mission
 				class Attribute4
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -11169,7 +11169,7 @@ class Mission
 				class Attribute3
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -11583,7 +11583,7 @@ class Mission
 				class Attribute3
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -11854,7 +11854,7 @@ class Mission
 				class Attribute3
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -11873,7 +11873,7 @@ class Mission
 				class Attribute4
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -12144,7 +12144,7 @@ class Mission
 				class Attribute3
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -12163,7 +12163,7 @@ class Mission
 				class Attribute4
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -12434,7 +12434,7 @@ class Mission
 				class Attribute3
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -12453,7 +12453,7 @@ class Mission
 				class Attribute4
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -12724,7 +12724,7 @@ class Mission
 				class Attribute3
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -12743,7 +12743,7 @@ class Mission
 				class Attribute4
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -13160,7 +13160,7 @@ class Mission
 				class Attribute2
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -13179,7 +13179,7 @@ class Mission
 				class Attribute3
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -13278,7 +13278,7 @@ class Mission
 				class Attribute3
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -13358,7 +13358,7 @@ class Mission
 				class Attribute2
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -15591,7 +15591,7 @@ class Mission
 				class Attribute3
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -15610,7 +15610,7 @@ class Mission
 				class Attribute4
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -17469,7 +17469,7 @@ class Mission
 				class Attribute1
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -17614,7 +17614,7 @@ class Mission
 				class Attribute1
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -17675,7 +17675,7 @@ class Mission
 				class Attribute1
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -18654,7 +18654,7 @@ class Mission
 				class Attribute0
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -18754,7 +18754,7 @@ class Mission
 				class Attribute1
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -18854,7 +18854,7 @@ class Mission
 				class Attribute1
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -19111,7 +19111,7 @@ class Mission
 						class Attribute1
 						{
 							property="ace_cargo_space";
-							expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+							expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 							class Value
 							{
 								class data
@@ -19169,7 +19169,7 @@ class Mission
 						class Attribute1
 						{
 							property="ace_cargo_space";
-							expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+							expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 							class Value
 							{
 								class data
@@ -19188,7 +19188,7 @@ class Mission
 						class Attribute2
 						{
 							property="ace_rearm_rearmCargo";
-							expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+							expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
 							class Value
 							{
 								class data
@@ -20209,7 +20209,7 @@ class Mission
 				class Attribute1
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -20228,7 +20228,7 @@ class Mission
 				class Attribute2
 				{
 					property="ace_rearm_rearmCargo";
-					expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+					expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
 					class Value
 					{
 						class data
@@ -23882,7 +23882,7 @@ class Mission
 				class Attribute3
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -24296,7 +24296,7 @@ class Mission
 				class Attribute3
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -24374,7 +24374,7 @@ class Mission
 				class Attribute2
 				{
 					property="ace_cargo_space";
-					expression="[_this,_value] call ace_cargo_fnc_setSpace;";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
 					class Value
 					{
 						class data
@@ -24393,7 +24393,7 @@ class Mission
 				class Attribute3
 				{
 					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
+					expression="[_this, _value] call ace_cargo_fnc_setSize;";
 					class Value
 					{
 						class data
@@ -42670,7 +42670,7 @@ class Mission
 						class Attribute1
 						{
 							property="ace_isEngineer";
-							expression="if !(_value == ([0,1] select (_this getUnitTrait 'engineer'))|| {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
 							class Value
 							{
 								class data
@@ -42882,7 +42882,7 @@ class Mission
 						class Attribute1
 						{
 							property="ace_isEngineer";
-							expression="if !(_value == ([0,1] select (_this getUnitTrait 'engineer'))|| {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
 							class Value
 							{
 								class data
@@ -43057,7 +43057,7 @@ class Mission
 						class Attribute1
 						{
 							property="ace_isEngineer";
-							expression="if !(_value == ([0,1] select (_this getUnitTrait 'engineer'))|| {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
 							class Value
 							{
 								class data
@@ -44346,7 +44346,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5342.1343,276.21655,14563.332};
-						angles[]={0,4.068017e-006,-0};
+						angles[]={0,4.068017e-006,0};
 					};
 					side="Empty";
 					flags=5;
@@ -44387,7 +44387,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5341.7876,278.24356,14560.182};
-						angles[]={0,3.141593,-0};
+						angles[]={0,3.141593,0};
 					};
 					side="Empty";
 					flags=4;
@@ -44427,7 +44427,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5343.5107,276.21646,14561.958};
-						angles[]={0,1.5707988,-0};
+						angles[]={0,1.5707988,0};
 					};
 					side="Empty";
 					flags=5;
@@ -44468,7 +44468,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5342.1323,276.21637,14557.833};
-						angles[]={0,3.141593,-0};
+						angles[]={0,3.141593,0};
 					};
 					side="Empty";
 					flags=5;
@@ -44509,7 +44509,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5343.5088,276.20401,14559.213};
-						angles[]={0,1.5707988,-0};
+						angles[]={0,1.5707988,0};
 					};
 					side="Empty";
 					flags=5;
@@ -44550,7 +44550,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5343.5112,276.21646,14560.582};
-						angles[]={0,1.5707988,-0};
+						angles[]={0,1.5707988,0};
 					};
 					side="Empty";
 					flags=5;
@@ -45784,7 +45784,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5344.2466,277.06635,14560.591};
-						angles[]={0,4.7123899,-0};
+						angles[]={0,4.7123899,0};
 					};
 					side="Empty";
 					class Attributes
@@ -45801,7 +45801,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5344.2456,277.06546,14559.215};
-						angles[]={0,4.7123899,-0};
+						angles[]={0,4.7123899,0};
 					};
 					side="Empty";
 					class Attributes
@@ -45818,7 +45818,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5343.5122,277.06595,14558.521};
-						angles[]={0,4.068017e-006,-0};
+						angles[]={0,4.068017e-006,0};
 					};
 					side="Empty";
 					class Attributes
@@ -45835,7 +45835,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5342.8423,277.06604,14557.81};
-						angles[]={0,4.7123899,-0};
+						angles[]={0,4.7123899,0};
 					};
 					side="Empty";
 					class Attributes
@@ -45852,7 +45852,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5342.1299,277.06595,14557.091};
-						angles[]={0,4.068017e-006,-0};
+						angles[]={0,4.068017e-006,0};
 					};
 					side="Empty";
 					class Attributes
@@ -45869,7 +45869,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5344.2461,277.06622,14561.967};
-						angles[]={0,4.7123899,-0};
+						angles[]={0,4.7123899,0};
 					};
 					side="Empty";
 					class Attributes
@@ -45886,7 +45886,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5343.4956,277.06555,14562.651};
-						angles[]={0,3.141593,-0};
+						angles[]={0,3.141593,0};
 					};
 					side="Empty";
 					class Attributes
@@ -45903,7 +45903,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5342.8374,277.06567,14563.379};
-						angles[]={0,4.7123899,-0};
+						angles[]={0,4.7123899,0};
 					};
 					side="Empty";
 					class Attributes
@@ -45920,7 +45920,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5342.1313,277.0658,14564.066};
-						angles[]={0,3.141593,-0};
+						angles[]={0,3.141593,0};
 					};
 					side="Empty";
 					class Attributes
