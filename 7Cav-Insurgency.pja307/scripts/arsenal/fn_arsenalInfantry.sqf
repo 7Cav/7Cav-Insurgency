@@ -259,6 +259,11 @@ private _magazines = [
     "220Rnd_762x51_Box",
     "220Rnd_762x51_Box_Tracer",
     //Ace
+    "ACE_1Rnd_82mm_Mo_HE_Guided",
+    "ACE_1Rnd_82mm_Mo_HE",
+    "ACE_1Rnd_82mm_Mo_Illum",
+    "ACE_1Rnd_82mm_Mo_HE_LaserGuided",
+    "ACE_1Rnd_82mm_Mo_Smoke",
     "ACE_20Rnd_65_Creedmor_mag",
     "ACE_20Rnd_65x47_Scenar_mag",
     "ACE_20Rnd_762x51_M118LR_Mag",

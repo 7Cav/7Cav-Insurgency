@@ -7,7 +7,7 @@ if (_state == "init") then {
 
     call scripts_fnc_arsenalPlanePilot;
 
-    player setvariable ["ACE_IsEngineer", 2];
+    player setvariable ["ACE_IsEngineer", 1];
 
     [player] call CLIENT_SetInfantryVehiclePermissions;
 
@@ -27,6 +27,6 @@ if (_state == "init") then {
 
 if (_state == "respawn") then {
 
-    player setvariable ["ACE_IsEngineer", 2];
+    player setvariable ["ACE_IsEngineer", 1];
 
 };
