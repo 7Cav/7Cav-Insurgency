@@ -106,11 +106,7 @@ private _secondaryWeapons = [
 private _launchers = [
     //Vanilla
     "launch_NLAW_F",
-    "launch_MRAWS_green_rail_F",
-    "launch_MRAWS_olive_rail_F",
-    "launch_MRAWS_sand_rail_F",
     "launch_MRAWS_green_F",
-    "launch_MRAWS_olive_F",
     "launch_MRAWS_sand_F",
     "launch_O_Vorona_brown_F",
     "launch_O_Vorona_green_F",
