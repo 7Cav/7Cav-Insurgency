@@ -75,17 +75,17 @@ _tempArray=[];
 };
 // ADD CLASSNAMES 
 	if (_faction==5) then {
-	_InfPool=	["LOP_AFR_Infantry_SL","LOP_AFR_Infantry_Rifleman_2","LOP_AFR_Infantry_Marksman","LOP_AFR_Infantry_AR","LOP_AFR_Infantry_GL","LOP_AFR_Infantry_AT","LOP_AFR_Infantry_Rifleman_6","LOP_AFR_Infantry_Rifleman_5"];	
-	_ArmPool=	["LOP_AFR_T55","LOP_AFR_T34"];
-	_MotPool=	["LOP_AFR_Nissan_PKM","LOP_AFR_Landrover_SPG9"];
-	_ACHPool=	["RHS_Mi24P_vvsc"];
+	_InfPool=	["rhsgref_nat_rifleman_akms","rhsgref_nat_rifleman_aks74","rhsgref_nat_grenadier","rhsgref_nat_rifleman","rhsgref_nat_grenadier_rpg","rhsgref_nat_saboteur","rhsgref_nat_scout","rhsgref_nat_machinegunner"];	
+	_ArmPool=	["rhsgref_nat_btr70"];
+	_MotPool=	["rhsgref_nat_uaz_dshkm","rhsgref_nat_uaz_spg9"];
+	_ACHPool=	[""];
 	_CHPool=	[];
 	_uavPool=	[];
-	_stPool=	["rhs_SPG9M_MSV","rhs_2b14_82mm_vdv"];
+	_stPool=	["rhsgref_nat_DSHKM","rhsgref_nat_SPG9"];
 	_shipPool=	[];
-	_diverPool=	["LOP_AFR_Infantry_Rifleman_2"];
-	_crewPool=	["LOP_AFR_Infantry_Rifleman_2"];
-	_heliCrew=	["LOP_AFR_Infantry_Rifleman_2"];
+	_diverPool=	["rhsgref_nat_rifleman"];
+	_crewPool=	["rhsgref_nat_rifleman"];
+	_heliCrew=	["rhsgref_nat_rifleman"];
 	};
 	
 // ADD CLASSNAMES 	

@@ -24,7 +24,7 @@ player addEventHandler ["HandleRating", { 0 }];
 // TODO-RENABLE: [] call JB_fnc_increasedFuelConsumption;
 
 // Initialize foritify permissions
-[] call tac2_fnc_fortifyPermissionsInitPlayer;
+//[] call tac2_fnc_fortifyPermissionsInitPlayer;
 
 // Make diary entries
 [] execVM "scripts\client\diary.sqf";
